@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="za.co.wethinkcode.robots.acceptance.LaunchWithObstacleTests" time="1.57" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/wtc06/student_work/brownfields_robot_worlds_3/target/test-classes:/home/wtc06/student_work/brownfields_robot_worlds_3/target/classes:/home/wtc06/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar:/home/wtc06/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/home/wtc06/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/home/wtc06/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar:/home/wtc06/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/wtc06/.m2/repository/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar:/home/wtc06/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/wtc06/.m2/repository/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar:/home/wtc06/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar:/home/wtc06/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar:/home/wtc06/.m2/repository/net/bytebuddy/byte-buddy/1.10.18/byte-buddy-1.10.18.jar:/home/wtc06/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.18/byte-buddy-agent-1.10.18.jar:/home/wtc06/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/wtc06/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/home/wtc06/.m2/repository/za/co/wethinkcode/flow/1.0.2/flow-1.0.2.jar:/home/wtc06/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/wtc06/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/wtc06/.m2/repository/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/home/wtc06/.m2/repository/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/home/wtc06/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/home/wtc06/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/home/wtc06/.m2/repository/org/slf4j/slf4j-nop/2.0.17/slf4j-nop-2.0.17.jar:/home/wtc06/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/wtc06/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/wtc06/student_work/brownfields_robot_worlds_3/libs/reference-server-0.1.0.jar:"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="OBSTACLE_MODE" value="Random"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Lubumbashi"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/wtc06/.jdks/openjdk-26.0.1/lib"/>
+    <property name="sun.java.command" value="/home/wtc06/student_work/brownfields_robot_worlds_3/target/surefire/surefirebooter-20260828103625166_3.jar /home/wtc06/student_work/brownfields_robot_worlds_3/target/surefire 2026-08-28T10-36-25_106-jvmRun1 surefire-20260828103625166_1tmp surefire_0-20260828103625166_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/wtc06/student_work/brownfields_robot_worlds_3/target/test-classes:/home/wtc06/student_work/brownfields_robot_worlds_3/target/classes:/home/wtc06/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar:/home/wtc06/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/home/wtc06/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/home/wtc06/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar:/home/wtc06/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/wtc06/.m2/repository/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar:/home/wtc06/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/wtc06/.m2/repository/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar:/home/wtc06/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar:/home/wtc06/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar:/home/wtc06/.m2/repository/net/bytebuddy/byte-buddy/1.10.18/byte-buddy-1.10.18.jar:/home/wtc06/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.18/byte-buddy-agent-1.10.18.jar:/home/wtc06/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/wtc06/.m2/repository/info/picocli/picocli/4.6.1/picocli-4.6.1.jar:/home/wtc06/.m2/repository/za/co/wethinkcode/flow/1.0.2/flow-1.0.2.jar:/home/wtc06/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/wtc06/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/wtc06/.m2/repository/org/eclipse/jgit/org.eclipse.jgit/6.8.0.202311291450-r/org.eclipse.jgit-6.8.0.202311291450-r.jar:/home/wtc06/.m2/repository/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/home/wtc06/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/home/wtc06/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/home/wtc06/.m2/repository/org/slf4j/slf4j-nop/2.0.17/slf4j-nop-2.0.17.jar:/home/wtc06/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/wtc06/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/wtc06/student_work/brownfields_robot_worlds_3/libs/reference-server-0.1.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/wtc06"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="/home/wtc06/.jdks/openjdk-26.0.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/wtc06/student_work/brownfields_robot_worlds_3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/wtc06/student_work/brownfields_robot_worlds_3/target/surefire/surefirebooter-20260828103625166_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.1+8-34"/>
+    <property name="user.name" value="wtc06"/>
+    <property name="WIDTH" value="10"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="7.0.0-28-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/wtc06/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="26.0.1"/>
+    <property name="user.dir" value="/home/wtc06/student_work/brownfields_robot_worlds_3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26.0.1+8-34"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="worldWithObstacleIsFull" classname="za.co.wethinkcode.robots.acceptance.LaunchWithObstacleTests" time="0.008">
+    <system-out><![CDATA[Server running on port 0 & waiting for client connections...
+New client connected: Socket[addr=/127.0.0.1,port=53822,localport=45235]
+Connection from localhost
+
+Server Command> 
+Name: ROBOT1 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT1 launched into Position: 
+  State:
+    - Position: [0,0]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT1' of type 'shooter' launched.
+  State:
+    - Position: [0,0]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+
+Name: ROBOT2 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT2 launched into Position: 
+  State:
+    - Position: [0,1]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT2' of type 'shooter' launched.
+  State:
+    - Position: [0,1]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+
+Name: ROBOT3 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT3 launched into Position: 
+  State:
+    - Position: [0,2]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT3' of type 'shooter' launched.
+  State:
+    - Position: [0,2]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+
+Name: ROBOT4 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT4 launched into Position: 
+  State:
+    - Position: [1,0]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT4' of type 'shooter' launched.
+  State:
+    - Position: [1,0]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+
+Name: ROBOT5 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT5 launched into Position: 
+  State:
+    - Position: [1,2]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT5' of type 'shooter' launched.
+  State:
+    - Position: [1,2]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+
+Name: ROBOT6 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT6 launched into Position: 
+  State:
+    - Position: [2,0]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT6' of type 'shooter' launched.
+  State:
+    - Position: [2,0]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+
+Name: ROBOT7 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT7 launched into Position: 
+  State:
+    - Position: [2,1]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT7' of type 'shooter' launched.
+  State:
+    - Position: [2,1]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+
+Name: ROBOT8 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT8 launched into Position: 
+  State:
+    - Position: [2,2]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT8' of type 'shooter' launched.
+  State:
+    - Position: [2,2]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+
+Name: ONE_TOO_MANY , Command: launch , Arguments: ["shooter","5","5"]
+
+Server Command> 
+< Client Response:
+  Result: ERROR
+  Message: No more space
+Server Command> 
+Server socket closed.
+]]></system-out>
+  </testcase>
+  <testcase name="launchRobotsIntoWorldWithObstacle" classname="za.co.wethinkcode.robots.acceptance.LaunchWithObstacleTests" time="0.007">
+    <failure message="Robot 1 should launch successfully ==&gt; expected: &lt;DONER&gt; but was: &lt;OK&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Robot 1 should launch successfully ==> expected: <DONER> but was: <OK>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)
+	at za.co.wethinkcode.robots.acceptance.LaunchWithObstacleTests.launchRobotsIntoWorldWithObstacle(LaunchWithObstacleTests.java:75)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:212)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:208)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:194)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Server running on port 0 & waiting for client connections...
+New client connected: Socket[addr=/127.0.0.1,port=33592,localport=34633]
+Connection from localhost
+
+Server Command> 
+Name: ROBOT1 , Command: launch , Arguments: ["shooter","5","5"]
+Robot ROBOT1 launched into Position: 
+  State:
+    - Position: [0,0]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+
+
+Server Command> 
+< Client Response:
+  Result: OK
+  Message: Robot 'ROBOT1' of type 'shooter' launched.
+  State:
+    - Position: [0,0]
+    - Make: hitbot
+    - Direction: NORTH
+    - Shields: 5
+    - Shots: 5
+    - Status: NORMAL
+Server Command> 
+Server socket closed.
+]]></system-out>
+  </testcase>
+</testsuite>

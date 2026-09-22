@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: za.co.wethinkcode.robots.persistence.orm.ORMIntegrationTests
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.546 s -- in za.co.wethinkcode.robots.persistence.orm.ORMIntegrationTests

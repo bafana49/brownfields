@@ -1,0 +1,7 @@
+
+------Legend-------
+MOUNTAIN :      '^'
+LAKE :          '~'
+BOTTOMLESS_PIT :'■'
+ 
+ 

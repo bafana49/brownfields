@@ -1,0 +1,16 @@
+za/co/wethinkcode/robots/command/SaveCommand.class
+za/co/wethinkcode/robots/persistence/DuplicateWorldException.class
+za/co/wethinkcode/robots/command/RestoreCommand.class
+za/co/wethinkcode/robots/command/FireCommand$1.class
+za/co/wethinkcode/robots/persistence/PersistenceException.class
+za/co/wethinkcode/robots/config/Config$CliObstacle.class
+za/co/wethinkcode/robots/world/WorldSnapshot.class
+za/co/wethinkcode/robots/persistence/AsciiWorldFileStore.class
+za/co/wethinkcode/robots/world/AsciiWorld$1.class
+za/co/wethinkcode/robots/command/look/DetectedObjectDetails$1.class
+za/co/wethinkcode/robots/persistence/JdbcWorldRepository.class
+za/co/wethinkcode/robots/robot/Robot$1.class
+za/co/wethinkcode/robots/Position$1.class
+za/co/wethinkcode/robots/config/Config$1.class
+za/co/wethinkcode/robots/persistence/WorldRepository.class
+za/co/wethinkcode/robots/world/WorldGUI$1.class

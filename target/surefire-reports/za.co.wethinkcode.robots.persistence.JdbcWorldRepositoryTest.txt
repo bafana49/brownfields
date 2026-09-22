@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: za.co.wethinkcode.robots.persistence.JdbcWorldRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in za.co.wethinkcode.robots.persistence.JdbcWorldRepositoryTest

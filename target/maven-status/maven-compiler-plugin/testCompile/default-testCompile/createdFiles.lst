@@ -1,0 +1,9 @@
+za/co/wethinkcode/robots/command/SaveCommandTest.class
+za/co/wethinkcode/robots/world/WorldSnapshotTest.class
+za/co/wethinkcode/robots/acceptance/database/RestoreWorldTest.class
+za/co/wethinkcode/robots/acceptance/database/SaveWorldAcceptanceTest.class
+za/co/wethinkcode/robots/config/ConfigTest.class
+za/co/wethinkcode/robots/world/WorldRestoreTest.class
+za/co/wethinkcode/robots/persistence/JdbcWorldRepositoryTest.class
+za/co/wethinkcode/robots/command/RestoreCommandTest.class
+za/co/wethinkcode/robots/acceptance/database/NamedRobotWorldAcceptanceTest.class

@@ -1,0 +1,9 @@
+# Created at 2026-08-13T14:18:07.666
+WARNING: Final field TOP_LEFT in class za.co.wethinkcode.robots.world.World has been mutated reflectively by class org.mockito.internal.util.reflection.ReflectionMemberAccessor in unnamed module @153f5a29 (file:/home/wtc06/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar)
+
+# Created at 2026-08-13T14:18:07.666
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+
+# Created at 2026-08-13T14:18:07.667
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+
